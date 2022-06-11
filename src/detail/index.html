@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../dist/output.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div class="md:bg-primary">
+    <div class="container mx-auto px-2 md:flex">
+      <div class="py-5">
+        <img class="hidden md:block" src="images/logo.svg" alt="">
+      </div>
+      <div class="ml-[130px] mt-5">
+        <div class="md:flex">
+          <input class="w-[550px] rounded-tl-[4px] rounded-bl-[4px] hidden md:block" type="text" placeholder="Bạn đang tìm kiếm gì?">
+          <button
+            class="text-white bg-primary-2 py-[10px] text-sm px-[18px] rounded-tr-[4px] rounded-br-[4px]  hidden md:block">
+            <div class="flex "><img class="mr-[8px]  hidden md:block" src="images/Rectangle.png" alt=""> Tìm kiếm</div>
+          </button>
+        </div>
+        <div class="mt-2 hidden md:block">
+          <ul class="flex">
+            <li><a class="text-[12px] text-white mr-3" href="">harry potter</a></li>
+            <li><a class="text-[12px] text-white mr-3" href="">sherlock holmes</a></li>
+            <li><a class="text-[12px] text-white mr-3" href="">cơ thể tự chữa lành</a></li>
+            <li><a class="text-[12px] text-white mr-3" href="">nếu biết trăm năm là hữu hạn</a></li>
+            <li><a class="text-[12px] text-white mr-3" href="">chú thuật hồi chiến vol 3</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-5 ml-4 hidden md:block">
+        <div class="flex">
+          <img class="w-10" src="images/Rectangle1.png" alt="">
+          <div class="flex flex-col ml-2">
+            <a class="text-sm text-white" href="">Đăng Nhập / Đăng Ký</a>
+            <a class="text-base text-white" href="">Tài khoản</a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-4 ml-7 hidden md:block">
+        <div class="flex">
+          <img class="w-10" src="images/Rectangle2.png" alt="">
+          <a class="ml-2 mt-5 text-white" href="">Giỏ Hàng</a>
+        </div>
+        <div class="mt-1">
+          <button class="text-white text-sm flex bg-primary-3 px-2 py-1 rounded-xl"><img class="mr-1 mt-1"
+              src="images/Shape.png" alt=""> Bán hàng cùng Tiki</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="bg-primary-4  hidden md:block">
+    <div class="container mx-auto px-2 flex py-3">
+      <a class="mr-2 text-gray-400" href="">Trang chủ</a>
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+      </svg>
+      <a href="">Nhà Sách Tiki</a>
+    </div>
+  </div>
+<!-- CONTENT -->
+  <div class="container mx-auto px-7" id="book-list">
+  </div>
+
+  <!-- FOOTER -->
+  <div class="mt-10 hidden md:block ">
+    <div class="container mx-auto px-2 grid grid-cols-5 gap-5 ">
+      <div>
+        <h3 class="text-xl">Hỗ trợ khách hàng</h3>
+        <p class="text-primary-7 text-sm mt-3">Hotline:1900 1091</p>
+        <p class="text-primary-7 text-sm">(1000 đ/phút, 8-21h kể cả T7, CN)</p>
+        <p class="text-primary-7 text-sm mt-2">Các câu hỏi thường gặp</p>
+        <p class="text-primary-7 text-sm mt-2">Gửi yêu cầu hỗ trợ</p>
+        <p class="text-primary-7 text-sm mt-2">Hướng dẫn đặt hàng</p>
+        <p class="text-primary-7 text-sm mt-2">Phương thức vận chuyển</p>
+        <p class="text-primary-7 text-sm mt-2">Chính sách đổi trả</p>
+        <p class="text-primary-7 text-sm mt-2">Hướng dẫn trả góp</p>
+        <p class="text-primary-7 text-sm mt-2">Chính sách hàng nhập khẩu</p>
+        <p class="text-primary-7 text-sm mt-2">Hỗ trợ khách hàng:hotro@tiki.vn</p>
+        <p class="text-primary-7 text-sm mt-2">Báo lỗi bảo mật:security@tiki.vn</p>
+      </div>
+      <div>
+        <h3 class="text-xl">Về Tiki</h3>
+        <p class="text-primary-7 text-sm mt-3">Giới thiệu Tiki</p>
+        <p class="text-primary-7 text-sm mt-2">Tuyển dụng</p>
+        <p class="text-primary-7 text-sm mt-2">Chính sách bảo mật thanh toán</p>
+        <p class="text-primary-7 text-sm mt-2">Chính sách bảo mật thông tin cá nhân</p>
+        <p class="text-primary-7 text-sm mt-2">Chính sách giải quyết khiếu nại</p>
+        <p class="text-primary-7 text-sm mt-2">Điều khoản sử dụng</p>
+        <p class="text-primary-7 text-sm mt-2">Giới thiệu Tiki Xu</p>
+        <p class="text-primary-7 text-sm mt-2">Tiếp thị liên kết cùng Tiki</p>
+        <p class="text-primary-7 text-sm mt-2">Bán hàng doanh nghiệp</p>
+        <p class="text-primary-7 text-sm mt-2">Điều kiện vận chuyển</p>
+      </div>
+      <div class="text-xl">
+        <h3>Hợp tác và liên kết</h3>
+        <p class="text-primary-7 text-sm mt-3">Quy chế hoạt động Sàn GDTMĐT</p>
+        <p class="text-primary-7 text-sm mt-2">Bán hàng cùng Tiki</p>
+        <p class="text-xl mt-6 text-red-500">Chứng nhận bởi</p>
+        <div class="flex mt-3">
+          <img class="mr-3" src="images/Rectangle5.png" alt="">
+          <div class="flex">
+            <img src="images/Shape1.png" alt="">
+            <img src="images/Shape2.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3 class="text-xl">Phương thức thanh toán</h3>
+        <div class="grid grid-cols-4 gap-y-2 mt-3">
+          <img src="images/Frame.png" alt="">
+          <img src="images/Frame-2.png" alt="">
+          <img src="images/Frame-3.png" alt="">
+          <img src="images/Frame-4.png" alt="">
+          <img src="images/Frame-5.png" alt="">
+          <img src="images/Frame-6.png" alt="">
+          <img src="images/Frame-7.png" alt="">
+          <img src="images/Frame-8.png" alt="">
+          <img src="images/Frame-9.png" alt="">
+          <img src="images/Frame-10.png" alt="">
+          <img src="images/Frame-11.png" alt="">
+          <img src="images/Frame-12.png" alt="">
+        </div>
+        <h3 class="text-xl mt-8">Dịch vụ giao hàng</h3>
+        <img class="mt-3" src="images/Frame-13.png" alt="">
+      </div>
+      <div>
+        <h3 class="text-xl">Kết nối với chúng tôi</h3>
+        <div class="flex mt-3">
+          <img class="mr-2" src="images/Frame-14.png" alt="">
+          <img class="mr-2" src="images/Frame-15.png" alt="">
+          <img src="images/Frame-16.png" alt="">
+        </div>
+        <h3 class="text-lg mt-8">Tải ứng dụng trên điện thoại</h3>
+        <div class="flex mt-3">
+          <img class="mr-2" src="images/Rectangle-0.png" alt="">
+          <div>
+            <img class="mb-2" src="images/Rectangle-1.png" alt="">
+            <img src="images/Rectangle-1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="mt-5 border-gray-400 container mx-auto px-2">
+  <div class="container mx-auto px-2 mt-4 hidden md:block">
+    <p class="text-primary-7 text-sm mt-2">Trụ sở chính: Tòa nhà Viettel, Số 285, đường Cách Mạng Tháng 8, phường 12,
+      quận 10, Thành phố Hồ Chí Minh</p>
+    <p class="text-primary-7 text-sm mt-2">Tiki nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận
+      hàng trực tiếp tại văn phòng hoặc trung tâm xử lý đơn hàng</p>
+    <p class="text-primary-7 text-sm mt-2">Giấy chứng nhận Đăng ký Kinh doanh số 0309532909 do Sở Kế hoạch và Đầu tư
+      Thành phố Hồ Chí Minh cấp lần đầu ngày 06/01/2010 và sửa đổi lần thứ 23 ngày 14/02/2022</p>
+    <p class="text-primary-7 text-sm mt-2">© 2022 - Bản quyền của Công ty TNHH Ti Ki</p>
+  </div>
+
+
+
+  <script type="module" src="detail.js"></script>
+</body>
+
+</html>
